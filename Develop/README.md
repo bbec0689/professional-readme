@@ -2,9 +2,9 @@
 
 
 ## Description
-This application can be used to effeciently create a professional readme for any project.
+This application can be used to efficiently create a professional readme for any project.
 
-[![GitHub license](https://img.shields.io/badge/license-ISC License-red.svg)](https://shields.io/)
+[![GitHub license](https://img.shields.io/badge/license-MITLicense-red.svg)](https://shields.io/)
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This application can be used to effeciently create a professional readme for any
 
 ## Photo
 
-
+![image](https://user-images.githubusercontent.com/71798106/104960616-d1356700-5991-11eb-9521-ea19fda33fa1.png)
 
 ## Installation
 
@@ -31,7 +31,7 @@ node index.js
 
 ## Usage
 
-You would use this application at the end of a project to create a readme easily and efficiently.
+Create a professional README.md
 
 ## Tests
 
@@ -49,4 +49,4 @@ If there are any questions about this project please reach out at bbec0689@gmail
 
 ## License 
 
-ISC License
+MIT License
