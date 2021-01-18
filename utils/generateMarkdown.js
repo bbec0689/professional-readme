@@ -1,14 +1,11 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 
 function generateMarkdown(data) {
     return `# ${data.title}
 
+## This README.md was created using the described application below 
 
 ## Description
 ${data.description}
-
-[![GitHub license](https://img.shields.io/badge/license-${data.license}-red.svg)](https://shields.io/)
 
 ## Table of Contents
 
@@ -43,7 +40,7 @@ ${data.tests}
 
 ## Contributions
 
-${data.contributions}, are/aren't welcome.
+${data.contributions}, contributions are/aren't welcome.
 
 ## Author
 ![user photo](https://avatars.githubusercontent.com/${data.github}?size=100)
@@ -53,7 +50,7 @@ If there are any questions about this project please reach out at ${data.questio
 
 ## License 
 
-${data.license}
+[![GitHub license](https://img.shields.io/badge/license-${data.license}-red.svg)](https://shields.io/)
 `;
 }
 
