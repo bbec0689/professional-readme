@@ -1,9 +1,12 @@
-
+// Loading Packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Linking generateMarkdown
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
+
+// Creating Questions start
 const questions = [
     {
         type: 'input',
@@ -113,9 +116,11 @@ const questions = [
     {
         type: 'input',
         name: 'photo',
-        message: "Past a photo of your project",
+        message: "Paste a photo of your project:",
     },
+    
 ];
+//Questions End
 
 function writeToFile(fileName, data) {
     // write file function with error catch
@@ -123,6 +128,7 @@ function writeToFile(fileName, data) {
         if (err) {
             console.log(err);
         }
+        console.log("Done. README.md created")
     })  
 }
 
